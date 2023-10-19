@@ -30,3 +30,24 @@
 }
 
 /* screen section style */
+.screen {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.user   {
+    height:150px;
+    width: 200px;
+    background-image: url(https://picsum.photos/200/150);
+    display: flex;
+    align-items:flex-end;
+    margin: 10px;
+}
+
+.name   {
+    background-color: grey;
+    color: white;
+}
+
