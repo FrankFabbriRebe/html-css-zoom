@@ -9,7 +9,6 @@
 .container  {
     height: 100vh;
     background-color: black;
-    position: relative;
 }
 
 /* view button style */
@@ -28,14 +27,17 @@
     display: flex;
     justify-content: flex-end;
     gap: 5px;
+    height: 5vh;
 }
 
 /* screen section style */
 .screen {
-    margin: 50px;
+    height: 85vh;
+    padding: 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    overflow: auto;
 }
 
 .user   {
@@ -55,16 +57,13 @@
 /* bottom section */
 .bottom_bar {
     background-color: gray;
-    height: 80px;
+    height: 10vh;
     width: 90%;
-    position: absolute;
-    bottom: 0;
-    left: 50%; 
-    transform: translateX(-50%);
     display: flex;
     align-items: center;
     font-size: 20px;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 /* left and center section */
