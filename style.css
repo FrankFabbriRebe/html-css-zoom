@@ -56,10 +56,11 @@
 .bottom_bar {
     background-color: gray;
     height: 80px;
-    width: 100%;
+    width: 90%;
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 50%; 
+    transform: translateX(-50%);
     display: flex;
     align-items: center;
     font-size: 20px;
