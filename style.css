@@ -9,22 +9,24 @@
 .container  {
     height: 100vh;
     background-color: black;
-    position: relative;
 }
 
 /* view button style */
-
 .speaker_view, .cross  {
     color: white;
     background-color: grey;
-    display: inline;
+    display: flex;
     padding: 5px;
     margin-left: 5px;
     border-radius: 5px;
+    gap: 3px;
 }
 
 .view   {
-    position: absolute;
-    top: 10px;
-    right: 0;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
 }
+
+/* screen section style */
